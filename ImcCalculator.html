@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Exercício Aula 06</title>
+  <link rel="stylesheet" href="_assets/css/style.css">
+</head>
+
+<body>
+
+  <section class="container">
+    <h1>Tabela de IMC</h1>
+    <p>
+      <table id="tabela">
+        <tr>
+          <th>IMC</th>
+          <th>Resultado</th>
+        </tr>
+        <tr>
+          <td>Menos que 18,5</td>
+          <td>Abaixo do peso</td>
+        </tr>
+        <tr>
+          <td>Entre 18,5 e 24,9</td>
+          <td>Peso normal</td>
+        </tr>
+        <tr>
+          <td>Entre 25 e 29,9</td>
+          <td>Sobrepeso</td>
+        </tr>
+        <tr>
+          <td>Entre 30 e 34,9</td>
+          <td>Obesidade grau 1</td>
+        </tr>
+        <tr>
+          <td>Entre 35 e 39,9</td>
+          <td>Obesidade grau 2</td>
+        </tr>
+        <tr>
+          <td>Mais do que 40</td>
+          <td>Obesidade grau 3</td>
+        </tr>
+        
+      </table>
+    </p>
+
+    <h4 id="resultado"></h4>
+
+    <form id="form" action="">
+      <label for="peso">Peso</label>
+      <input type="text" id="peso">
+
+      <label for="altura">Altura</label>
+      <input type="text" id="altura">
+
+      <button type="submit" id="btn">Enviar</button>
+    </form>
+  </section>
+  <script src="_assets/js/main.js"></script>
+</body>
+
+</html>
